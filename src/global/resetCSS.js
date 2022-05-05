@@ -5,7 +5,9 @@ const ResetCSS = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    list-style: none;
   }
 `;
 

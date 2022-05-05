@@ -1,14 +1,18 @@
 import React from 'react';
-import * as S from './styled'
+import Footer from '../footer';
+import Header from '../header';
+import * as S from './styled';
 
-function Layout({children}) {
+
+function Layout({ children }) {
   return (
     <S.WrapperLayout>
-      <header>
-        header
-      </header>
+      
+      <Header />
       {children}
+      <Footer />
     </S.WrapperLayout>
+
   );
 }
 

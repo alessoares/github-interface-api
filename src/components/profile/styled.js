@@ -15,18 +15,19 @@ export const WrapperInfoUser = styled.div`
   justify-content: space-around;
   padding: 20px;
   height: 260px;
+  width: 100%;
   h1{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 500;
     
   }
   h3{
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 500;
   }
   h4{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 500;
   }
 `;
 
@@ -40,7 +41,7 @@ export const WrapperStatusCount = styled.div`
   flex-wrap: wrap;
 `;
 
-export const WrapperUserName = styled.div`
+export const WrapperUserGeneric = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -48,12 +49,13 @@ export const WrapperUserName = styled.div`
   a {
     text-decoration: none;
     color: #4682B4;
-    font-weight: bold;
+    font-weight: 500;
   }
 `;
 
 export const WrapperImage = styled.img`
   border-radius: 50%;
+  border: 2px solid #DAA520;
   width: 200px;
   margin: 10px;
 `;
