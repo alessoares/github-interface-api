@@ -64,6 +64,8 @@ const getUser = (username) => {
   .catch((error) => {
     if( error.response.status  === 404){
     alert(`Usuário ${username} não encontrado!`);
+    }else{
+    alert(error);
     }
   })
   .finally(() => {
